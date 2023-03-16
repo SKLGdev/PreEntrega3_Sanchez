@@ -1,0 +1,73 @@
+/* Index */
+
+@media (max-width: 1200px) {
+  .contenedor-intro {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .flecha {
+    display: none;
+    .img-flecha {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .descripcion {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .descripcion-lista {
+    padding-top: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .empresa {
+    max-height: 800px;
+  }
+}
+
+@media (max-width: 400px) {
+  .img-intro {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* Nosotros */
+
+@media (max-width: 668px) {
+  .video {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Ubicacion */
+
+@media (max-width: 556px) {
+  .imagen-ubicacion {
+    height: 350px;
+    width: 300px;
+
+    .mapa-ubicacion {
+      height: 350px;
+      width: 300px;
+    }
+  }
+}
